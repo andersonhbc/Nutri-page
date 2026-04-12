@@ -9,7 +9,7 @@ faqAnswer.forEach(btn=> {
 
         faqAnswer.forEach(Allbtns => {
           Allbtns.nextElementSibling.classList.remove('open');
-          btn.classList.remove('active');
+          Allbtns.classList.remove('active');
          })
         
          if(!isOpen) {
