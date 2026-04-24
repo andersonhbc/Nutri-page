@@ -18,3 +18,16 @@ faqAnswer.forEach(btn=> {
          }
 })
 })
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    })
+})
+
+document.querySelectorAll('.card-res').forEach(card => {
+    observer.observe(card);
+})
