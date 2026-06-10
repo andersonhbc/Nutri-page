@@ -183,10 +183,10 @@ nav button:not(.hamburger):hover {
     width: 100%;
     color: rgba(214, 231, 166, 0.753);
     
-    font: normal 400 25px var(--secondary-font);
+    font: normal 400 20px var(--secondary-font);
 }
 .img-legend p {
-    font-size: 20px;
+    font-size: 15px;
     color:white;
     
 }
