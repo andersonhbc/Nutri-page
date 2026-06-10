@@ -612,6 +612,11 @@ footer {
     }
 
     /* NAV */
+     nav {
+        position: sticky;
+        top: 0;
+        z-index: 9999; 
+    }
     .nav-logo img { width: 160px; }
     .menu-list { display: none; }
 
@@ -667,6 +672,7 @@ footer {
         padding: 70px 24px 0;
         position:relative;
         overflow: hidden;
+        z-index: 1;
     }
 
     .hero-left {
