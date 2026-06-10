@@ -1,6 +1,7 @@
 
 const faqAnswer = document.querySelectorAll('.fq-btn');
-
+const dropMenu = document.querySelector('.hamburger')
+const menuList = document.querySelector('.menu-list')
 
 faqAnswer.forEach(btn=> {
     btn.addEventListener("click", () => {
@@ -30,4 +31,10 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.card-res').forEach(card => {
     observer.observe(card);
+})
+
+
+dropMenu.addEventListener("click", () => {
+    menuList.classList.toggle('open');
+    dropMenu.classList.toggle('active');
 })
