@@ -665,6 +665,8 @@ footer {
         height: auto;
         min-height: 100dvh;
         padding: 70px 24px 0;
+        position:relative;
+        overflow: hidden;
     }
 
     .hero-left {
@@ -685,19 +687,19 @@ footer {
     }
 
     .hero-right {
+        position: relative;
         width: 100%;
         flex: 1;
         min-height: 50vh;
         overflow: hidden;
-        align-items: flex-end;
-        justify-content: center;
+        
     }
 
     .hero-right img {
-        width: 100%;
+       width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: top;
+        margin-left: -40px;; 
     }
 
     .hero-title span::before { width: 100%; }
@@ -705,10 +707,11 @@ footer {
     .img-legend {
         position: absolute;
         bottom: 16px;
-        right: 16px;
-        left: auto;
+        right: 16px; /* sits on the right/darker side */
+        left: 75%;
         margin-bottom: 0;
         font-size: 14px;
+        text-align: right;
     }
 
     .img-legend h2 { font-size: 16px; }
