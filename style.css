@@ -76,7 +76,7 @@ nav li:hover {
 }
 
 .hamburger {
-    display: none; /* hidden on desktop */
+    display: none; 
     flex-direction: column;
     gap: 5px;
     background: none;
@@ -722,7 +722,7 @@ footer {
     .img-legend {
         position: absolute;
         bottom: 80px;
-        right: 16px; /* sits on the right/darker side */
+        right: 16px; 
         left: 70%;
         margin-bottom: 0;
         font-size: 14px;
