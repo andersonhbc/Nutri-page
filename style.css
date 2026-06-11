@@ -371,14 +371,20 @@ nav button:not(.hamburger):hover {
     min-height: 100dvh;
     gap: 100px;
     background-color: rgb(208, 219, 208);
+    margin: auto;
+    padding: 60px 80px;
     
 }
-
+.processo-right {
+    color: var(--primary-color);
+    max-width: 600px; 
+}
 .processo-left {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    margin:auto;
 }
+
 
 .processo-left h1 {
     font: normal 400 4rem var(--main-font);
@@ -424,9 +430,7 @@ color: var(--primary-color);
     background-color: var(--secondary-color);
     
 }
-.processo-right {
-    color: var(--primary-color);
-}
+
 .step-content {
     position:relative;
     display:flex;
