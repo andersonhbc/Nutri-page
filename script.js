@@ -2,7 +2,7 @@
 const faqAnswer = document.querySelectorAll('.fq-btn');
 const dropMenu = document.querySelector('.hamburger')
 const menuList = document.querySelector('.menu-list')
-
+const navLinks = document.querySelectorAll('.menu-list a');
 faqAnswer.forEach(btn=> {
     btn.addEventListener("click", () => {
         
@@ -37,4 +37,11 @@ document.querySelectorAll('.card-res').forEach(card => {
 dropMenu.addEventListener("click", () => {
     menuList.classList.toggle('open');
     dropMenu.classList.toggle('active');
+})
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menuList.classList.remove('open');
+        dropMenu.classList.remove('active');
+    })
 })
