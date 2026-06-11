@@ -613,9 +613,12 @@ footer {
 
     /* NAV */
      nav {
-        position: sticky;
+        position: fixed; 
         top: 0;
-        z-index: 9999; 
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        width: 100%;
     }
     .nav-logo img { width: 160px; }
     .menu-list { display: none; }
