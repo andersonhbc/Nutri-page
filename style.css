@@ -590,6 +590,7 @@ footer {
 }
 .footer-right img {
     width: 30px;
+    filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(400%) hue-rotate(80deg) brightness(95%);
     
 }
 .insta {
@@ -597,6 +598,7 @@ footer {
     align-items: center;
     gap: 20px;
 }
+
 .localiza {
     display: flex;
     align-items: center;
@@ -606,6 +608,7 @@ footer {
     width: 30px;
     margin-right:20px;
     }
+
 
 
 
@@ -619,7 +622,6 @@ footer {
      nav {
         position: fixed; 
         top: 0;
-        left: 0;
         right: 0;
         z-index: 9999;
         width: 100%;
